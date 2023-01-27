@@ -1,0 +1,18 @@
+
+img{
+width: 250px;
+padding: 10px;
+background-color: rgb(208, 233, 15);
+margin-top: 10px;
+}
+h1{
+    font-family: "Noto Serif";
+}
+header{
+    background-color: #000000d8;
+    color: white;
+    margin: 0px;
+}
+#list-example{
+    margin: 5px;
+}

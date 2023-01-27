@@ -8,22 +8,38 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="Css/Estilos.css" />
-    <link href="sidebars.css" rel="stylesheet">
+    <link href="Css/dashboard.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<body>
-    <header class="container-fluid text-center row align-items-start">
-      <div class="col-4" style="background-color:aqua">
-        One of three columns
-        <p>Uno</p>
-        <p>Dos</p>
-        <p>Tres</p>
-      </div>
-      <div class="col" style="background-color:aquamarine">
-        One of three columns
-      </div>
-    </header>
+<body style="background-color: darkgrey;">
+  <header>
+    <h4 style="margin-left: 10px; margin-bottom: 0px;">Mi curriculum vitae</h4>
+  </header>
+    <section class="container-fluid row" style="margin: 0px;padding: 0px;">
+      <nav class="col-4" style="background-color:aqua">
+        <img src="img/Foto.png" class="rounded-5 mx-auto d-block img-fluid" alt="Fotografia no Disponible">
+        <h1 class="display-6 text-center"><u>Elias Ezequiel Dipace</u></h1>
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+        </div>
+      </nav>
+      <main class="col-8" style="background-color:aquamarine">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+          <h4 id="list-item-1">Item 1</h4>
+          <p>...</p>
+          <h4 id="list-item-2">Item 2</h4>
+          <p>...</p>
+          <h4 id="list-item-3">Item 3</h4>
+          <p>...</p>
+          <h4 id="list-item-4">Item 4</h4>
+          <p>...</p>
+        </div>
+      </main>
+    </section>
     
     <footer></footer>
     
