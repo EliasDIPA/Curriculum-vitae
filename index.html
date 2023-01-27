@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,43 +8,92 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="Css/Estilos.css" />
-    <link href="Css/dashboard.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
+
+
 <body style="background-color: darkgrey;">
   <header>
-    <h4 style="margin-left: 10px; margin-bottom: 0px;">Mi curriculum vitae</h4>
+    <h3 style="margin-left: 10px; margin-bottom: 0px; font-size: 20px;">Mi curriculum vitae</h3>
   </header>
-    <section class="container-fluid row" style="margin: 0px;padding: 0px;">
-      <nav class="col-4" style="background-color:aqua">
-        <img src="img/Foto.png" class="rounded-5 mx-auto d-block img-fluid" alt="Fotografia no Disponible">
-        <h1 class="display-6 text-center"><u>Elias Ezequiel Dipace</u></h1>
-        <div id="list-example" class="list-group">
-          <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-        </div>
-      </nav>
-      <main class="col-8" style="background-color:aquamarine">
-        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-          <h4 id="list-item-1">Item 1</h4>
-          <p>...</p>
-          <h4 id="list-item-2">Item 2</h4>
-          <p>...</p>
-          <h4 id="list-item-3">Item 3</h4>
-          <p>...</p>
-          <h4 id="list-item-4">Item 4</h4>
-          <p>...</p>
-        </div>
-      </main>
-    </section>
+
+  <section class="container-fluid row align-items-start" style="margin: 0px;padding: 0px;">
+    <nav class="col-4 sticky-top" style="background-color:aqua;">
+      <img id="Foto" src="img/Foto.png" class="rounded-5 mx-auto d-block img-fluid" alt="Fotografia no Disponible">
+      <h1 class="display-6 text-center"><u>Elias Ezequiel Dipace</u></h1>
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action text-center" href="#sobre-mi"><img src="img/Sobre mi-48px.png" class="img-fluid">Sobre mi...</a>
+        <a class="list-group-item list-group-item-action text-center" href="#formacion"><img src="img/Formacion-48px.png" class="img-fluid">Formacion</a>
+        <a class="list-group-item list-group-item-action text-center" href="#experiencia"><img src="img/Portafolio-48px.png" class="img-fluid">Experiencia laboral</a>
+        <a class="list-group-item list-group-item-action text-center" href="#contacto"><img src="img/contacto-48px.png" class="img-fluid">Contacto</a>
+      </div>
+    </nav>
+    <main class="col-8" style="background-color:aquamarine;padding-top:10px;">
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <h4 id="sobre-mi">Sobre mi...<hr></h4>
+        <p>Cortés y entusiasta, me interesa la informática y todo lo que está en su órbita. Recientemente comencé a estar fascinado por la programación web, por ejemplo, el desarrollo de aplicaciones y la construcción de sitios web. Invitado a formar parte de la empresa emergente de mi amigo como desarrollador front-end, adquirí experiencia de trabajo en esta área.
+          Como esta área complementa mis estudios, estoy deseando adquirir más experiencia en este campo. Por este motivo, busco una empresa que esté dispuesta a ofrecerme un puesto de trabajo entre sus desarrolladores. A cambio, ofrecería mi plena dedicación y sería una incorporación agradable y amistosa a su equipo.
+          Por lo tanto, actualmente estoy buscando un trabajo o unas prácticas como desarrollador front-end.</p>
+        <h5>Informacion personal</h5>
+        <ul>
+          <p><u>DNI:</u> 46.696.819</p>
+          <p><u>Cuil:</u> 20-46696819-7</p>
+          <p><u>F.Nacimiento:</u> 5 de Junio del 2005</p>
+        </ul>
+        <h5>Idiomas</h5>
+        <ul>
+          <li><u>Español:</u> Idioma materno</li>
+          <li><u>Inglés:</u> Nivel Basico</li>
+          <li><u>Lengua de Señas Argentina(LSA):</u> Nivel Avanzado, Comunicación fluida</li>
+        </ul>
+        <h5>Otros conocimientos</h5>
+        <ul>
+          <li>Procesador de texto, hoja de cálculos y presentación de Diapositivas.</li>
+          <li>Edicion de Videos.</li>
+          <li>Trasmisión en Vivo.</li>
+          <li>Conocimientos en informática y electronica.</li>
+          <li>Reparacion y armado de computadoras.</li>
+        </ul>
+        <h5>Objetivo</h5>
+        <ul>
+          <p>Poder ampliar mí conocimiento, y realizar un trabajo que me permita lograr mís metas.</p>
+        </ul>
+        <h4 id="formacion">Formacion<hr></h4>
+        <ul>
+          <li>2017-2022 Escuela E.E.S N°7 Bachiller en Economía.</li>
+          <li>2020-2022 Escuela E.E.S N°7 Itinerario Formativo de Asistencia en informatica</li>
+        </ul>
+        </p>
+        <h4 id="experiencia">Experiencia laboral<hr></h4>
+        <p>03/2015 - presente, Desarrollador Front-end, startup BudgetMatador, Tallinn, Estonia </p>
+        <ul>
+          <li>Ayudando voluntariamente a una empresa emergente aún no financiada a desarrollar su producto, con fines autodidácticos. Incluye codificación en Javascript (Backbone, jQuery, Underscore), HTML y CSS.</li>
+          <li>www.budgetmatador.com</li>
+       </ul>
+       <p>03/2014 - 04/2015, Asesor de atención al cliente, Arvutitark OÜ, Tallin, Estonia </p>
+       <ul>
+        <li>Trabajé como vendedor en una tienda de productos informáticos.</li>
+       </ul>
+       <p>06/2008 - 08/2012, Asistente de organización, Asociación Atlética de Estonia, Tallin, Estonia </p>
+       <ul>
+        <li>Trabajé como asistente de organización en varios eventos de atletismo.</li>
+       </ul> 
+       <h4 id="contacto">Contacto<hr></h4>
+        <ul>
+          <a href="mailto:EliEze.dee@gmail.com"><img src="img/mail-48px.png" alt="Mail: "> Elieze.dee@gmail.com</a><br>
+          <a href="tel:+54 9 1162303370"><img src="img/celular-48px.png" alt="Celular: "> +54 9 11623-03370</a><br>
+          <a href="tel:02224-437179"><img src="img/telefono-48px.png" alt="Telefono Fijo: "> 02224-43-7179</a>
+          <p style="margin: 0px;"><img src="img/casa-48px.png" alt="Ubicacion: "> Glew, Buenos Aires, Argentina</p>
+          <a target="_blank" href="https://github.com/EliasDIPA"><img src="img/github.svg" alt="GitHub: "> EliasDIPA</a>
+        </ul>
+       </div>
+    </main>
+  </section>
     
-    <footer></footer>
-    
-    <!-- Bootstrap -->
-    <script src="sidebars.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <footer></footer>
+   
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

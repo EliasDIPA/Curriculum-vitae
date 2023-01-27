@@ -1,17 +1,20 @@
-
-img{
+header{
+    background-color: #000000c5;
+    color: white;
+    margin: 0px;
+}
+#Foto{
 width: 250px;
-padding: 10px;
-background-color: rgb(208, 233, 15);
+padding: 20px;
+background-color: rgb(88, 238, 255);
 margin-top: 10px;
+}
+img{
+    width: 30px;
+    padding-bottom: 9px;
 }
 h1{
     font-family: "Noto Serif";
-}
-header{
-    background-color: #000000d8;
-    color: white;
-    margin: 0px;
 }
 #list-example{
     margin: 5px;
