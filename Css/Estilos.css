@@ -1,13 +1,21 @@
 header{
-    background-color: #000000c5;
+    background-color: #1c1c1c;
     color: white;
     margin: 0px;
 }
+nav{
+    height: 100vh;
+    padding-bottom: 25px;
+    background: rgb(45,163,253);
+    background: linear-gradient(0deg, rgba(45,163,253,1) 10%, rgba(34,193,195,1) 60%); 
+}
+main{
+    color:white;
+    padding-top:10px;
+}
 #Foto{
-width: 250px;
-padding: 20px;
-background-color: rgb(88, 238, 255);
-margin-top: 10px;
+    width: 244px;
+    margin-top: 5px;
 }
 img{
     width: 30px;
@@ -16,6 +24,13 @@ img{
 h1{
     font-family: "Noto Serif";
 }
+h5{
+    font-family: "Roboto";
+}
 #list-example{
     margin: 5px;
+}
+#contacto{
+    background-color: #009d71;
+    padding: 30px;
 }
