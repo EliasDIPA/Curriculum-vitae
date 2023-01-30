@@ -9,9 +9,16 @@ nav{
     background: rgb(45,163,253);
     background: linear-gradient(0deg, rgba(45,163,253,1) 10%, rgba(34,193,195,1) 60%); 
 }
+.offcanvas-body div{
+    margin: 10px;
+    height: 5;
+}
 main{
     color:white;
     padding-top:10px;
+}
+main h4{
+    margin-bottom: 30px;
 }
 #Foto{
     width: 244px;
@@ -20,6 +27,7 @@ main{
 img{
     width: 30px;
     padding-bottom: 9px;
+    margin-right: 10px;
 }
 h1{
     font-family: "Noto Serif";

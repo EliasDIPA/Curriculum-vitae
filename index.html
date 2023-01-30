@@ -18,94 +18,128 @@
     <h3 style="margin-left: 26px; margin-bottom: 0px; font-size: 20px;">Mi curriculum vitae</h3>
   </header>
 
-  <section class="container-fluid row align-items-start " style="margin: 0px;padding: 0px;">
+  <section class="container-fluid row align-items-start" style="margin: 0px;padding: 0px;">
     <!-- Menu de navegacion (Lado izquierdo) -->
     <nav class="col-4 sticky-top mx-auto">
-      <img id="Foto" src="img/Foto.png" class="rounded-circle mx-auto d-block img-fluid" alt="Fotografia No Disponible">
-      <h1 class="display-6 text-center "><u>Elias Ezequiel Dipace</u></h1>
+      <img id="Foto" src="img/Foto.jpg" class="rounded-circle mx-auto d-block img-fluid" alt="Fotografia No Disponible">
+      <h1 class="display-6"><u>Elias Ezequiel Dipace</u></h1>
       <!-- Botones del menu -->
-      <div id="list-example" class="list-group">
-        <a class="list-group-item list-group-item-action text-center" href="#sobre-mi"><img src="img/Sobre mi-48px.png" class="img-fluid">Sobre mi...</a>
-        <a class="list-group-item list-group-item-action text-center" href="#formacion"><img src="img/Formacion-48px.png" class="img-fluid">Formacion</a>
-        <a class="list-group-item list-group-item-action text-center" href="#experiencia"><img src="img/Portafolio-48px.png" class="img-fluid">Experiencia laboral</a>
-        <a class="list-group-item list-group-item-action text-center" href="#contacto"><img src="img/contacto-48px.png" class="img-fluid">Contacto</a>
+      <div id="list-example" class="list-group mx-auto">
+        <a class="list-group-item list-group-item-action" href="#sobre-mi"><img src="img/Sobre mi-48px.png" class="img-fluid">Sobre mi...</a>
+        <a class="list-group-item list-group-item-action" href="#formacion"><img src="img/Formacion-48px.png" class="img-fluid">Formacion</a>
+        <a class="list-group-item list-group-item-action" href="#experiencia"><img src="img/Portafolio-48px.png" class="img-fluid">Experiencia laboral</a>
+        <a class="list-group-item list-group-item-action" href="#contacto"><img src="img/contacto-48px.png" class="img-fluid">Contacto</a>
       </div>
     </nav>
 
     <!-- Menu de informacion (Lado derecho)-->
-    <main class="col-7 mx-auto">
-      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <main class="col-7 mx-auto scrollspy-example" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabindex="0">
+      <!-- Seccion: Sobre mi... -->
+      <h4 id="sobre-mi" class="border-bottom border-info">Sobre mi...</h4>
+      <p>Cortés y entusiasta, me interesa la informática y todo lo relacionado. Recientemente comencé a estar fascinado por la programación web, por ejemplo, el desarrollo de aplicaciones y la construcción de sitios web.
+      Estoy deseando adquirir más experiencia en este campo.<br>
+      Por este motivo, busco una empresa que esté dispuesta a ofrecerme un puesto de trabajo entre sus desarrolladores. A cambio, ofrecería mi plena dedicación y sería una incorporación agradable y amistosa a su equipo.
+      Por lo tanto, actualmente estoy buscando un trabajo o unas prácticas como desarrollador front-end.</p>
 
-        <!-- Seccion: Sobre mi... -->
-        <h4 id="sobre-mi" class="border-bottom border-info">Sobre mi...</h4>
-        <p>Cortés y entusiasta, me interesa la informática y todo lo relacionado. Recientemente comencé a estar fascinado por la programación web, por ejemplo, el desarrollo de aplicaciones y la construcción de sitios web.
-          Estoy deseando adquirir más experiencia en este campo.<br>
-          Por este motivo, busco una empresa que esté dispuesta a ofrecerme un puesto de trabajo entre sus desarrolladores. A cambio, ofrecería mi plena dedicación y sería una incorporación agradable y amistosa a su equipo.
-          Por lo tanto, actualmente estoy buscando un trabajo o unas prácticas como desarrollador front-end.</p>
-        <h5>Informacion personal</h5>
-        <ul>
-          <p><u>DNI:</u> 46.696.819</p>
-          <p><u>Cuil:</u> 20-46696819-7</p>
-          <p><u>Fecha de Nacimiento:</u> 5 de Junio del 2005</p>
-        </ul>
-        <h5>Objetivo</h5>
-        <ul>
-          <p>Poder ampliar mí conocimiento, y realizar un trabajo que me permita lograr mís metas.</p>
-        </ul>
-
-        <!-- Seccion: Formacion -->
-        <h4 id="formacion" class="border-bottom border-info">Formacion</h4>
-        <h5>Escolar</h5>
-        <ul>
-          <li>2017-2022 Escuela E.E.S N°7 Bachiller en Economía.</li>
-          <ul>
-            <li>Con Reconocimiento al Mejor Merito</li>
-          </ul>
-          <li>2020-2022 Escuela E.E.S N°7 Itinerario Formativo de Asistencia en informatica</li>
-        </ul>
-        <h5>Idiomas</h5>
-        <ul>
-          <li><u>Español:</u> Idioma materno</li>
-          <li><u>Inglés:</u> Nivel Basico</li>
-          <li><u>Lengua de Señas Argentina(LSA):</u> Nivel Avanzado, Comunicación fluida</li>
-        </ul>
-        <h5>Otros conocimientos</h5>
-        <ul>
-          <li>Procesador de texto, hoja de cálculos y presentación de Diapositivas.</li>
-          <li>Edicion de Videos.</li>
-          <li>Trasmisión en Vivo.</li>
-          <li>Conocimientos en informática y electronica.</li>
-          <li>Reparacion y armado de computadoras.</li>
-        </ul>
-
-        <!-- Seccion: Experiencia -->
-        <h4 id="experiencia" class="border-bottom border-info">Experiencia laboral</h4>
-        <p>03/2015 - presente, Desarrollador Front-end, startup BudgetMatador, Tallinn, Estonia </p>
-        <ul>
-          <li>Ayudando voluntariamente a una empresa emergente aún no financiada a desarrollar su producto, con fines autodidácticos. Incluye codificación en Javascript (Backbone, jQuery, Underscore), HTML y CSS.</li>
-          <li>www.budgetmatador.com</li>
-       </ul>
-       <p>03/2014 - 04/2015, Asesor de atención al cliente, Arvutitark OÜ, Tallin, Estonia </p>
-        <ul>
-          <li>Trabajé como vendedor en una tienda de productos informáticos.</li>
-        </ul>
-       <p>06/2008 - 08/2012, Asistente de organización, Asociación Atlética de Estonia, Tallin, Estonia </p>
-        <ul>
-          <li>Trabajé como asistente de organización en varios eventos de atletismo.</li>
-        </ul> 
-
-        <!-- Seccion: Contacto -->
-        <section id="contacto" class="rounded-top-4">
-          <h4 class="border-bottom border-info">Contacto</h4>
-          <ul>
-            <a href="mailto:EliEze.dee@gmail.com"><img src="img/mail-48px.png" alt="Mail: "> Elieze.dee@gmail.com</a><br>
-            <a href="tel:+54 9 1162303370"><img src="img/celular-48px.png" alt="Celular: "> +54 9 11623-03370</a><br>
-            <a href="tel:02224-437179"><img src="img/telefono-48px.png" alt="Telefono Fijo: "> 02224-43-7179</a>
-            <p style="margin: 0px;"><img src="img/casa-48px.png" alt="Ubicacion: "><U> Glew, Buenos Aires, Argentina</U></p>
-            <a target="_blank" href="https://github.com/EliasDIPA"><img src="img/github.svg" alt="GitHub: "> EliasDIPA</a>
-          </ul>
-        </section>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Ver portafolio</button>
+      <div class="offcanvas offcanvas-end" data-bs-theme="dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Proyectos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
        </div>
+      </div>
+
+      <h5><br>Informacion personal</h5>
+      <ul>
+        <p><u>DNI:</u> 46.696.819</p>
+        <p><u>Cuil:</u> 20-46696819-7</p>
+        <p><u>Fecha de Nacimiento:</u> 5 de Junio del 1994</p>
+      </ul>
+      <h5>Objetivo</h5>
+      <ul>
+       <p>Poder ampliar mí conocimiento, y realizar un trabajo que me permita lograr mís metas.</p>
+      </ul>
+
+      <!-- Seccion: Formacion -->
+      <h4 id="formacion" class="border-bottom border-info">Formacion</h4>
+      <h5>Academica</h5>
+      <ul>
+        <li>2002-2008 Escuela E.E.S N°7 Bachiller en Economía.</li>
+        <ul>
+        <li>Con Reconocimiento al Mejor Merito</li>
+        </ul>
+        <li>2005-2008 Escuela E.E.S N°7 Itinerario Formativo de Asistencia en informatica</li>
+      </ul>
+      <h5>Idiomas</h5>
+      <ul>
+        <li><u>Español:</u> Idioma materno</li>
+        <li><u>Inglés:</u> Nivel Basico</li>
+        <li ><u>Estonio:</u> Nivel Avanzado, Comunicación fluida</li>
+        <li><u>Lengua de Señas Argentina(LSA):</u> Nivel Avanzado, Comunicación fluida</li>
+      </ul>
+      <h5>Otros conocimientos</h5>
+      <ul>
+        <li>Procesador de texto, hoja de cálculos y presentación de Diapositivas.</li>
+        <li>Edicion de Videos.</li>
+        <li>Trasmisión en Vivo.</li>
+        <li>Conocimientos en informática y electronica.</li>
+        <li>Reparacion y armado de computadoras.</li>
+      </ul>
+
+      <!-- Seccion: Experiencia -->
+      <h4 id="experiencia" class="border-bottom border-info">Experiencia laboral</h4>
+      <p>03/2015 - presente, Desarrollador Front-end, startup BudgetMatador, Tallinn, Estonia </p>
+      <ul>
+        <li>Ayudando voluntariamente a una empresa emergente aún no financiada a desarrollar su producto, con fines autodidácticos. Incluye codificación en Javascript (Backbone, jQuery, Underscore), HTML y CSS.</li>
+        <li>www.budgetmatador.com</li>
+      </ul>
+       
+      <p>03/2014 - 04/2015, Asesor de atención al cliente, Arvutitark OÜ, Tallin, Estonia </p>
+      <ul>
+        <li>Trabajé como vendedor en una tienda de productos informáticos.</li>
+      </ul>
+      <p>06/2008 - 08/2012, Asistente de organización, Asociación Atlética de Estonia, Tallin, Estonia </p>
+      <ul>
+        <li>Trabajé como asistente de organización en varios eventos de atletismo.</li>
+      </ul> 
+
+      <!-- Seccion: Contacto -->
+      <section id="contacto" class="rounded-top-4">
+        <h4 class="border-bottom border-info">Contacto</h4>
+        <ul>
+          <a href="mailto:EliEze.dee@gmail.com"><img src="img/mail-48px.png" alt="Mail: "> Elieze.dee@gmail.com</a><br>
+          <a href="tel:+54 9 1162303370"><img src="img/celular-48px.png" alt="Celular: "> +54 9 11623-03370</a><br>
+          <a href="tel:02224-437179"><img src="img/telefono-48px.png" alt="Telefono Fijo: "> 02224-43-7179</a>
+          <p style="margin: 0px;"><img src="img/casa-48px.png" alt="Ubicacion: "><U> Glew, Buenos Aires, Argentina</U></p>
+          <a target="_blank" href="https://github.com/EliasDIPA"><img src="img/github.svg" alt="GitHub: "> EliasDIPA</a>
+        </ul>
+      </section>
     </main>
   </section>
     
