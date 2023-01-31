@@ -1,34 +1,41 @@
  <!DOCTYPE html>
-<html lang="es">
+<html lang="es" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-
+    <link rel="icon" type="image/x-icon" href="img/iconos/Portafolio-48px.png">
+    
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="Css/Estilos.css" />
+    <link rel="stylesheet" type="text/css" href="Css/Estilos.css"/>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+    <!-- Open Graph -->
+    <meta property="og:title" content="Curriculum Vitae"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://eliasdipa.github.io/Curriculum-vitae/"/>
+    <meta property="og:image" content="img/Img-Open_Graph.png"/>
+    <meta property="og:description" content="Un modelo de Curriculum Vitae creado por mi"/>
+  </head>
 
 
 <body style="background-color:rgba(122,121,121,1)">
   <header>
-    <h3 style="margin-left: 26px; margin-bottom: 0px; font-size: 20px;">Mi curriculum vitae</h3>
+    <h1 style="margin-left: 26px; margin-bottom: 0px; font-size: 20px;">Mi curriculum vitae</h1>
   </header>
 
   <section class="container-fluid row align-items-start" style="margin: 0px;padding: 0px;">
     <!-- Menu de navegacion (Lado izquierdo) -->
     <nav class="col-4 sticky-top container-sm text-center text-break">
       <img id="Foto" src="img/Foto.jpg" class="rounded-circle mx-auto d-block img-fluid" alt="Fotografia No Disponible">
-      <h1 class="display-6"><u>Elias Ezequiel Dipace</u></h1>
+      <p id="nombre" class="display-6"><u>Elias Ezequiel Dipace</u></p>
       <!-- Botones del menu -->
       <div id="list-example" class="list-group mx-auto">
-        <a class="list-group-item list-group-item-action" href="#sobre-mi"><img src="img/Sobre mi-48px.png" class="img-fluid">Sobre mi...</a>
-        <a class="list-group-item list-group-item-action" href="#formacion"><img src="img/Formacion-48px.png" class="img-fluid">Formacion</a>
-        <a class="list-group-item list-group-item-action" href="#experiencia"><img src="img/Portafolio-48px.png" class="img-fluid">Experiencia laboral</a>
-        <a class="list-group-item  list-group-item-action" href="#contacto"><img src="img/contacto-48px.png" class="img-fluid">Contacto</a>
+        <a class="list-group-item list-group-item-action" href="#sobre-mi"><img src="img/iconos/Sobre mi-48px.png" class="img-fluid">Sobre mi...</a>
+        <a class="list-group-item list-group-item-action" href="#formacion"><img src="img/iconos/Formacion-48px.png" class="img-fluid">Formacion</a>
+        <a class="list-group-item list-group-item-action" href="#experiencia"><img src="img/iconos/Portafolio-48px.png" class="img-fluid">Experiencia laboral</a>
+        <a class="list-group-item  list-group-item-action" href="#contacto"><img src="img/iconos/contacto-48px.png" class="img-fluid">Contacto</a>
       </div>
     </nav>
 
@@ -41,41 +48,8 @@
         Estoy deseando adquirir más experiencia en este campo.<br>
         Por este motivo, busco una empresa que esté dispuesta a ofrecerme un puesto de trabajo entre sus desarrolladores. A cambio, ofrecería mi plena dedicación y sería una incorporación agradable y amistosa a su equipo.
         Por lo tanto, actualmente estoy buscando un trabajo o unas prácticas como desarrollador front-end.</p>
-
         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Ver portafolio</button>
-        <div class="offcanvas offcanvas-end container-sm" data-bs-theme="dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Proyectos</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-        </div>
-        </div>
-
+        
         <h5><br>Informacion personal</h5>
         <ul>
           <p><u>DNI:</u> 46.696.819</p>
@@ -137,13 +111,48 @@
       <article id="contacto" class="rounded-top-4">
         <h4 class="border-bottom border-info text-center">Contacto</h4>
         <ul class="list-group container-fluid">
-          <a  href="mailto:EliEze.dee@gmail.com"><img src="img/mail-48px.png" alt="Mail: "> Elieze.dee@gmail.com</a><br>
-          <a href="tel:+54 9 1162303370"><img src="img/celular-48px.png" alt="Celular: "> +54 9 11623-03370</a><br>
-          <a href="tel:02224-437179"><img src="img/telefono-48px.png" alt="Telefono Fijo: "> 02224-43-7179</a>
-          <p style="margin: 0px;"><img src="img/casa-48px.png" alt="Ubicacion: "><U> Glew, Buenos Aires, Argentina</U></p>
-          <a target="_blank" href="https://github.com/EliasDIPA"><img src="img/github.svg" alt="GitHub: "> EliasDIPA</a>
+          <a  href="mailto:EliEze.dee@gmail.com"><img src="img/iconos/mail-48px.png" alt="Mail: "> Elieze.dee@gmail.com</a><br>
+          <a href="tel:+54 9 1162303370"><img src="img/iconos/celular-48px.png" alt="Celular: "> +54 9 11623-03370</a><br>
+          <a href="tel:02224-437179"><img src="img/iconos/telefono-48px.png" alt="Telefono Fijo: "> 02224-43-7179</a>
+          <p style="margin: 0px;"><img src="img/iconos/casa-48px.png" alt="Ubicacion: "><U> Glew, Buenos Aires, Argentina</U></p>
+          <a target="_blank" href="https://github.com/EliasDIPA"><img src="img/iconos/github.svg" alt="GitHub: "> EliasDIPA</a>
         </ul>
       </article>
+
+      <!-- Canvas oculto -->
+      <div class="offcanvas offcanvas-end" data-bs-theme="dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title mx-auto" id="offcanvasRightLabel">Proyectos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body container-sm">
+          <div class="card">
+            <img src="img/Proyectos_capturas/Proyecto-precios.png" class="card-img-top" alt="Imagen No Disponible">
+            <div class="card-body">
+              <h5 class="card-title">Precios</h5>
+              <p class="card-text">Página de precios de ejemplo creada con Cards y con un encabezado y pie de página personalizados.</p>
+              <a href="#" class="btn btn-primary">Ver pagina</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/Proyectos_capturas/Proyecto-album.png" class="card-img-top" alt="Imagen No Disponible">
+            <div class="card-body">
+              <h5 class="card-title">Álbum</h5>
+              <p class="card-text">Plantilla simple de una página para galerías de fotos, portafolios y más.</p>
+              <a href="#" class="btn btn-primary">Ver pagina</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/Proyectos_capturas/Proyecto-blog.png" class="card-img-top" alt="Imagen No Disponible">
+            <div class="card-body">
+              <h5 class="card-title">Blog</h5>
+              <p class="card-text">Revista como plantilla de blog con encabezado, navegación, contenido destacado.</p>
+              <a href="#" class="btn btn-primary">Ver pagina</a>
+            </div>
+          </div>
+      </div>
+      </div>
+
     </main>
   </section>
     

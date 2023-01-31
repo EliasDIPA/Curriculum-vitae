@@ -4,13 +4,8 @@ header{
 }
 nav{
     height: 100vh;
-    padding-bottom: 25px;
     background: rgb(45,163,253);
     background: linear-gradient(0deg, rgba(45,163,253,1) 10%, rgba(34,193,195,1) 60%); 
-}
-.offcanvas-body div{
-    margin-top: 10px;
-    height: 5;
 }
 main{
     color:white;
@@ -31,6 +26,7 @@ img{
 }
 h1{
     font-family: "Noto Serif";
+    font-size:10vw;
 }
 h5{
     font-family: "Roboto";
@@ -45,3 +41,16 @@ h5{
 a{
     margin: 0px;
 }
+.card{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 800px) {
+    nav a img, nav{
+        width: 20px;
+        font-size: 15px;
+    }}
+@media only screen and (max-width: 353px) {
+    nav a img, nav{
+        width: 15px;
+        font-size: 10px;
+    }}
