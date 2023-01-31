@@ -1,8 +1,6 @@
 header{
     background-color: #1c1c1c;
     color: white;
-    margin: 0px;
-    padding: 0px;
 }
 nav{
     height: 100vh;
@@ -11,7 +9,7 @@ nav{
     background: linear-gradient(0deg, rgba(45,163,253,1) 10%, rgba(34,193,195,1) 60%); 
 }
 .offcanvas-body div{
-    margin: 10px;
+    margin-top: 10px;
     height: 5;
 }
 main{
@@ -41,7 +39,7 @@ h5{
     margin: 5px;
 }
 #contacto{
-    background-color: #009d71;
+    background-color: #00ab7b;
     padding: 30px;
 }
 a{
