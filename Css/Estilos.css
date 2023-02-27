@@ -3,13 +3,13 @@ header{
     color: white;
 }
 nav{
-    height: 100vh;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 100%;
     background: rgb(45,163,253);
     background: linear-gradient(0deg, rgba(45,163,253,1) 10%, rgba(34,193,195,1) 60%); 
 }
 main{
-    color:white;
-    padding-top:10px;
     margin-right: 0px;
 }
 main h4{
@@ -24,33 +24,62 @@ img{
     padding-bottom: 9px;
     margin-right: 10px;
 }
-h1{
-    font-family: "Noto Serif";
-    font-size:10vw;
-}
 h5{
     font-family: "Roboto";
 }
 #list-example{
     margin: 5px;
 }
+#sobre-mi{
+padding: 15px;
+background-color: #9CDB9F;
+height: 100vh;
+}
+#formacion{
+padding: 15px;
+background-color: #F2E4A0;
+height: 100vh;
+}
+#experiencia{
+    padding: 15px;
+    background-color: #E9B09E;
+    height: 100vh;
+}
 #contacto{
     background-color: #00ab7b;
     padding: 30px;
+    margin-top: 10px;
 }
-a{
+a, #contacto p{
     margin: 0px;
 }
 .card{
     margin-top: 10px;
 }
+/*
+@media only screen and (max-width: 250px) {
+    #Foto{
+       display: none;
+    }
+    nav a p{
+        display: none;
+    }
+}
+*/
 @media only screen and (max-width: 800px) {
     nav a img, nav{
         width: 20px;
         font-size: 15px;
     }}
-@media only screen and (max-width: 353px) {
-    nav a img, nav{
-        width: 15px;
-        font-size: 10px;
-    }}
+    
+@media only screen and (max-width: 1000px) {
+    #sobre-mi{
+    height: auto;
+    }
+    #formacion{
+       height: auto;
+    }
+    #experiencia{
+        height: auto;
+    }  
+}
